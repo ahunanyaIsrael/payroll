@@ -2,7 +2,7 @@
 // import { Lucid } from "https://unpkg.com/lucid-cardano@0.10.11/web/mod.js";
 import { Data, Constr } from "lucid-cardano";
 import { Lucid } from "lucid-cardano";
-import { getValidatorAddress, validator } from "./utils-backup/validator";
+import { getValidatorAddress, validator } from "./validator";
 
 export async function withdrawSalary(lucidInstance: Lucid) {
   if (!lucidInstance) throw new Error("Lucid not initialized.");

@@ -5,7 +5,7 @@ import { useLucid } from '../../contexts/LucidContext';
 import "./ListEmployee.css";
 import UpdateEmployeeModal from "../UpdateEmployee/UpdateEmployeeModal";
 import { usePayroll } from '../../hooks/usePayroll';
-import { hexToString } from "../../utils/utils-backup/hexToString";
+import { hexToString } from "../../utils/hexToString";
 
 const ListEmployee = () => {
   const { lucid, isConnected } = useLucid();

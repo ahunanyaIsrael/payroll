@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { updateEmployee } from "../../utils/utils-backup/updateEmployee";
+import { updateEmployee } from "../../utils/updateEmployee";
 import "./UpdateEmployeeModal.css";
 import { useLucid } from "../../contexts/LucidContext";
 
