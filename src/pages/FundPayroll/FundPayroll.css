@@ -1,0 +1,99 @@
+.fund-payroll {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+.fund-payroll h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 32px;
+}
+
+.fund-payroll form {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  padding: 32px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.input-group input {
+  padding: 14px 16px;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 15px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  background: var(--surface);
+}
+
+.input-group input::placeholder {
+  color: var(--text-muted);
+}
+
+.fund-payroll button {
+  width: 100%;
+  max-width: none;
+  border: none;
+  padding: 14px 24px;
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  margin-top: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.fund-payroll button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.fund-payroll button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .fund-payroll form {
+    padding: 24px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+}
