@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import "./Employee.css";
 import { useLucid } from '../../contexts/LucidContext';
-import { getValidatorAddress } from '../../utils/validator';
+import { getValidatorAddress } from '../../utils/utils-backup/validator';
 import { Data, Constr } from "lucid-cardano";
-import { withdrawSalary } from '../../utils/withdrawSalary';
-import { hexToString } from '../../utils/hexToString';
+import { withdrawSalary } from '../../utils/utils-backup/withdrawSalary';
+import { hexToString } from '../../utils/utils-backup/hexToString';
 
 interface EmployeeData {
   empName: string;

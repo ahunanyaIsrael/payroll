@@ -1,7 +1,7 @@
 import "./NavBar.css"
 import { Link } from 'react-router-dom'
 import { useLucid } from '../../contexts/LucidContext' // Update path as needed
-import { getValidatorAddress } from '../../utils/validator'
+import { getValidatorAddress } from '../../utils/utils-backup/validator'
 
 interface NavBarProps {
   name: string
